@@ -1,5 +1,0 @@
-streamlit
-pandas
-st-link-analysis
-rdflib==7.0.0
-git
