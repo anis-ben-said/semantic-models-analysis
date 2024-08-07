@@ -1,5 +1,5 @@
 streamlit
 pandas
-st_link_analysis
+st-link-analysis
 rdflib==7.0.0
 git
