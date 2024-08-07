@@ -2,4 +2,5 @@ streamlit
 pandas
 st_link_analysis
 rdflib
-git 
+git
+st_link_analysis
