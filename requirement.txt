@@ -1,0 +1,5 @@
+streamlit
+pandas
+st_link_analysis
+rdflib
+git 

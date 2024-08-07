@@ -1,0 +1,983 @@
+@prefix sma: <http://sma.org/> .
+
+<urn:asset_tracker_links> sma:hasVersion <urn:bamm:io.catenax.asset_tracker_links:1.0.0#>,
+        <urn:samm:io.catenax.asset_tracker_links:2.0.0#> .
+
+<urn:batch> sma:hasVersion <urn:bamm:io.catenax.batch:1.0.2#>,
+        <urn:samm:io.catenax.batch:2.0.0#>,
+        <urn:samm:io.catenax.batch:2.0.1#>,
+        <urn:samm:io.catenax.batch:3.0.0#> .
+
+<urn:battery.battery_pass> sma:hasVersion <urn:bamm:io.catenax.battery.battery_pass:3.0.0#>,
+        <urn:bamm:io.catenax.battery.battery_pass:3.0.1#>,
+        <urn:samm:io.catenax.battery.battery_pass:4.0.0#>,
+        <urn:samm:io.catenax.battery.battery_pass:5.0.0#>,
+        <urn:samm:io.catenax.battery.battery_pass:6.0.0#> .
+
+<urn:battery.product_description> sma:hasVersion <urn:bamm:io.catenax.battery.product_description:1.0.1#> .
+
+<urn:bom_as_specified> sma:hasVersion <urn:bamm:io.catenax.bom_as_specified:1.0.0#>,
+        <urn:bamm:io.catenax.bom_as_specified:1.0.1#> .
+
+<urn:business_partner_certificate> sma:hasVersion <urn:samm:io.catenax.business_partner_certificate:1.0.0#> .
+
+<urn:certificate_of_destruction> sma:hasVersion <urn:bamm:io.catenax.certificate_of_destruction:1.0.1#>,
+        <urn:samm:io.catenax.certificate_of_destruction:2.0.0#> .
+
+<urn:certificate_of_dismantler> sma:hasVersion <urn:bamm:io.catenax.certificate_of_dismantler:1.0.1#> .
+
+<urn:certificate_signing_requests> sma:hasVersion <urn:samm:io.catenax.certificate_signing_requests:1.0.0#> .
+
+<urn:classified_load_spectrum> sma:hasVersion <urn:bamm:io.catenax.classified_load_spectrum:1.0.0#>,
+        <urn:samm:io.catenax.classified_load_spectrum:2.0.0#> .
+
+<urn:customs_information> sma:hasVersion <urn:samm:io.catenax.customs_information:1.0.0#> .
+
+<urn:days_of_supply> sma:hasVersion <urn:samm:io.catenax.days_of_supply:1.0.0#>,
+        <urn:samm:io.catenax.days_of_supply:2.0.0#> .
+
+<urn:decomissioning_certificate> sma:hasVersion <urn:bamm:io.catenax.decomissioning_certificate:1.0.0#>,
+        <urn:samm:io.catenax.decomissioning_certificate:2.0.0#> .
+
+<urn:delivery_information> sma:hasVersion <urn:samm:io.catenax.delivery_information:1.0.0#>,
+        <urn:samm:io.catenax.delivery_information:2.0.0#> .
+
+<urn:demand_and_capacity_notification> sma:hasVersion <urn:samm:io.catenax.demand_and_capacity_notification:1.0.0#>,
+        <urn:samm:io.catenax.demand_and_capacity_notification:2.0.0#> .
+
+<urn:early_warning_notification> sma:hasVersion <urn:samm:io.catenax.early_warning_notification:1.0.0#> .
+
+<urn:electric_drive.electric_drive_passport> sma:hasVersion <urn:samm:io.catenax.electric_drive.electric_drive_passport:1.0.0#>,
+        <urn:samm:io.catenax.electric_drive.electric_drive_passport:2.0.0#> .
+
+<urn:eol_story> sma:hasVersion <urn:bamm:io.catenax.eol_story:1.0.0#>,
+        <urn:samm:io.catenax.eol_story:2.0.0#> .
+
+<urn:essincident> sma:hasVersion <urn:samm:io.catenax.essincident:2.0.0#>,
+        <urn:samm:io.catenax.essincident:3.0.0#>,
+        <urn:samm:io.catenax.essincident:4.0.0#> .
+
+<urn:failure_pattern> sma:hasVersion <urn:samm:io.catenax.failure_pattern:1.0.0#> .
+
+<urn:fleet.claim_data> sma:hasVersion <urn:bamm:io.catenax.fleet.claim_data:1.0.0#>,
+        <urn:samm:io.catenax.fleet.claim_data:2.0.0#> .
+
+<urn:fleet.diagnostic_data> sma:hasVersion <urn:bamm:io.catenax.fleet.diagnostic_data:1.0.0#>,
+        <urn:samm:io.catenax.fleet.diagnostic_data:2.0.0#> .
+
+<urn:fleet.vehicles> sma:hasVersion <urn:samm:io.catenax.fleet.vehicles:1.0.0#>,
+        <urn:samm:io.catenax.fleet.vehicles:2.0.0#>,
+        <urn:samm:io.catenax.fleet.vehicles:2.1.0#>,
+        <urn:samm:io.catenax.fleet.vehicles:3.0.0#> .
+
+<urn:generic.digital_product_passport> sma:hasVersion <urn:samm:io.catenax.generic.digital_product_passport:2.0.0#>,
+        <urn:samm:io.catenax.generic.digital_product_passport:3.0.0#>,
+        <urn:samm:io.catenax.generic.digital_product_passport:4.0.0#>,
+        <urn:samm:io.catenax.generic.digital_product_passport:5.0.0#> .
+
+<urn:global_transport_label> sma:hasVersion <urn:samm:io.catenax.global_transport_label:1.0.0#> .
+
+<urn:id_based_comment> sma:hasVersion <urn:samm:io.catenax.id_based_comment:1.0.0#> .
+
+<urn:id_based_request_for_update> sma:hasVersion <urn:samm:io.catenax.id_based_request_for_update:1.0.0#>,
+        <urn:samm:io.catenax.id_based_request_for_update:2.0.0#>,
+        <urn:samm:io.catenax.id_based_request_for_update:3.0.0#> .
+
+<urn:idconversion> sma:hasVersion <urn:bamm:io.catenax.idconversion:1.0.0#>,
+        <urn:samm:io.catenax.idconversion:2.0.0#> .
+
+<urn:individual_asset_definition> sma:hasVersion <urn:bamm:io.catenax.individual_asset_definition:1.0.0#>,
+        <urn:samm:io.catenax.individual_asset_definition:2.0.0#> .
+
+<urn:iot_sensor_data> sma:hasVersion <urn:bamm:io.catenax.iot_sensor_data:1.0.0#>,
+        <urn:samm:io.catenax.iot_sensor_data:2.0.0#> .
+
+<urn:iot_sensor_device_definition> sma:hasVersion <urn:bamm:io.catenax.iot_sensor_device_definition:1.0.0#>,
+        <urn:samm:io.catenax.iot_sensor_device_definition:2.0.0#> .
+
+<urn:item_stock> sma:hasVersion <urn:samm:io.catenax.item_stock:1.0.0#>,
+        <urn:samm:io.catenax.item_stock:2.0.0#> .
+
+<urn:just_in_sequence_part> sma:hasVersion <urn:bamm:io.catenax.just_in_sequence_part:1.0.0#>,
+        <urn:samm:io.catenax.just_in_sequence_part:2.0.0#>,
+        <urn:samm:io.catenax.just_in_sequence_part:3.0.0#> .
+
+<urn:mandatory_dismantling> sma:hasVersion <urn:samm:io.catenax.mandatory_dismantling:1.0.0#> .
+
+<urn:manufactured_parts_quality_information> sma:hasVersion <urn:bamm:io.catenax.manufactured_parts_quality_information:1.0.0#>,
+        <urn:samm:io.catenax.manufactured_parts_quality_information:2.0.0#>,
+        <urn:samm:io.catenax.manufactured_parts_quality_information:2.1.0#> .
+
+<urn:manufacturing_capability> sma:hasVersion <urn:bamm:io.catenax.manufacturing_capability:1.0.0#>,
+        <urn:samm:io.catenax.manufacturing_capability:2.0.0#>,
+        <urn:samm:io.catenax.manufacturing_capability:3.0.0#>,
+        <urn:samm:io.catenax.manufacturing_capability:3.1.0#> .
+
+<urn:market_place_offer> sma:hasVersion <urn:bamm:io.catenax.market_place_offer:1.2.0#>,
+        <urn:bamm:io.catenax.market_place_offer:1.4.0#>,
+        <urn:samm:io.catenax.market_place_offer:2.0.0#> .
+
+<urn:material.chemical_material_passport> sma:hasVersion <urn:samm:io.catenax.material.chemical_material_passport:1.0.0#>,
+        <urn:samm:io.catenax.material.chemical_material_passport:2.0.0#> .
+
+<urn:material_demand> sma:hasVersion <urn:samm:io.catenax.material_demand:1.0.0#> .
+
+<urn:material_flow_scenario_request> sma:hasVersion <urn:samm:io.catenax.material_flow_scenario_request:1.0.0#>,
+        <urn:samm:io.catenax.material_flow_scenario_request:2.0.0#> .
+
+<urn:material_flow_simulation_result> sma:hasVersion <urn:bamm:io.catenax.material_flow_simulation_result:1.0.0#>,
+        <urn:samm:io.catenax.material_flow_simulation_result:2.0.0#>,
+        <urn:samm:io.catenax.material_flow_simulation_result:3.0.0#> .
+
+<urn:material_for_homologation> sma:hasVersion <urn:bamm:io.catenax.material_for_homologation:1.0.0#>,
+        <urn:samm:io.catenax.material_for_homologation:2.0.0#> .
+
+<urn:material_recycling_certificate> sma:hasVersion <urn:samm:io.catenax.material_recycling_certificate:1.0.0#> .
+
+<urn:packing_list> sma:hasVersion <urn:samm:io.catenax.packing_list:1.0.0#> .
+
+<urn:part_as_planned> sma:hasVersion <urn:samm:io.catenax.part_as_planned:2.0.0#> .
+
+<urn:part_as_specified> sma:hasVersion <urn:bamm:io.catenax.part_as_specified:1.0.0#>,
+        <urn:bamm:io.catenax.part_as_specified:1.0.1#>,
+        <urn:bamm:io.catenax.part_as_specified:2.0.0#>,
+        <urn:samm:io.catenax.part_as_specified:3.0.0#> .
+
+<urn:part_site_information_as_planned> sma:hasVersion <urn:bamm:io.catenax.part_site_information_as_planned:1.0.0#> .
+
+<urn:part_type_information> sma:hasVersion <urn:samm:io.catenax.part_type_information:1.0.0#> .
+
+<urn:parts_analyses> sma:hasVersion <urn:samm:io.catenax.parts_analyses:2.0.0#>,
+        <urn:samm:io.catenax.parts_analyses:3.0.0#> .
+
+<urn:pcf> sma:hasVersion <urn:bamm:io.catenax.pcf:2.0.0#>,
+        <urn:bamm:io.catenax.pcf:3.0.0#>,
+        <urn:bamm:io.catenax.pcf:4.0.0#>,
+        <urn:bamm:io.catenax.pcf:4.0.1#>,
+        <urn:samm:io.catenax.pcf:5.0.0#>,
+        <urn:samm:io.catenax.pcf:6.0.0#>,
+        <urn:samm:io.catenax.pcf:7.0.0#> .
+
+<urn:planned_production_output> sma:hasVersion <urn:samm:io.catenax.planned_production_output:1.0.0#>,
+        <urn:samm:io.catenax.planned_production_output:2.0.0#> .
+
+<urn:product_stock> sma:hasVersion <urn:bamm:io.catenax.product_stock:1.0.0#>,
+        <urn:samm:io.catenax.product_stock:2.0.0#> .
+
+<urn:quality_task> sma:hasVersion <urn:bamm:io.catenax.quality_task:1.0.0#>,
+        <urn:samm:io.catenax.quality_task:2.0.0#> .
+
+<urn:quality_task_attachment> sma:hasVersion <urn:samm:io.catenax.quality_task_attachment:1.0.0#>,
+        <urn:samm:io.catenax.quality_task_attachment:2.0.0#> .
+
+<urn:refurbishing_certificate> sma:hasVersion <urn:bamm:io.catenax.refurbishing_certificate:1.0.0#>,
+        <urn:samm:io.catenax.refurbishing_certificate:2.0.0#>,
+        <urn:samm:io.catenax.refurbishing_certificate:3.0.0#> .
+
+<urn:remanufacturing_certificate> sma:hasVersion <urn:bamm:io.catenax.remanufacturing_certificate:1.0.0#>,
+        <urn:samm:io.catenax.remanufacturing_certificate:2.0.0#>,
+        <urn:samm:io.catenax.remanufacturing_certificate:3.0.0#> .
+
+<urn:repair_certificate> sma:hasVersion <urn:samm:io.catenax.repair_certificate:1.0.0#> .
+
+<urn:request_for_quotation> sma:hasVersion <urn:samm:io.catenax.request_for_quotation:1.0.0#>,
+        <urn:samm:io.catenax.request_for_quotation:2.0.0#>,
+        <urn:samm:io.catenax.request_for_quotation:3.0.0#> .
+
+<urn:return_request> sma:hasVersion <urn:bamm:io.catenax.return_request:1.1.1#>,
+        <urn:bamm:io.catenax.return_request:1.1.2#>,
+        <urn:samm:io.catenax.return_request:2.0.0#> .
+
+<urn:reuse_certificate> sma:hasVersion <urn:bamm:io.catenax.reuse_certificate:1.0.0#>,
+        <urn:samm:io.catenax.reuse_certificate:2.0.0#>,
+        <urn:samm:io.catenax.reuse_certificate:3.0.0#> .
+
+<urn:rul> sma:hasVersion <urn:bamm:io.catenax.rul:1.0.0#>,
+        <urn:samm:io.catenax.rul:2.0.0#> .
+
+<urn:sealant.sealant_pass> sma:hasVersion <urn:bamm:io.catenax.sealant.sealant_pass:1.0.0#> .
+
+<urn:secondary_material_content> sma:hasVersion <urn:samm:io.catenax.secondary_material_content:1.0.0#> .
+
+<urn:secondary_material_content_calculated> sma:hasVersion <urn:samm:io.catenax.secondary_material_content_calculated:1.0.0#> .
+
+<urn:secondary_material_content_verifiable> sma:hasVersion <urn:samm:io.catenax.secondary_material_content_verifiable:1.0.0#> .
+
+<urn:serial_part> sma:hasVersion <urn:bamm:io.catenax.serial_part:1.0.1#>,
+        <urn:samm:io.catenax.serial_part:2.0.0#>,
+        <urn:samm:io.catenax.serial_part:3.0.0#> .
+
+<urn:shared.address_characteristic> sma:hasVersion <urn:bamm:io.catenax.shared.address_characteristic:1.0.1#>,
+        <urn:bamm:io.catenax.shared.address_characteristic:2.0.0#>,
+        <urn:samm:io.catenax.shared.address_characteristic:3.0.0#>,
+        <urn:samm:io.catenax.shared.address_characteristic:4.0.0#> .
+
+<urn:shared.bill_of_process> sma:hasVersion <urn:samm:io.catenax.shared.bill_of_process:1.0.0#>,
+        <urn:samm:io.catenax.shared.bill_of_process:1.1.0#> .
+
+<urn:shared.business_partner_number> sma:hasVersion <urn:samm:io.catenax.shared.business_partner_number:1.0.0#>,
+        <urn:samm:io.catenax.shared.business_partner_number:2.0.0#> .
+
+<urn:shared.contact_information> sma:hasVersion <urn:bamm:io.catenax.shared.contact_information:1.0.0#>,
+        <urn:bamm:io.catenax.shared.contact_information:2.0.0#>,
+        <urn:samm:io.catenax.shared.contact_information:3.0.0#>,
+        <urn:samm:io.catenax.shared.contact_information:4.0.0#> .
+
+<urn:shared.message_header> sma:hasVersion <urn:samm:io.catenax.shared.message_header:1.0.0#>,
+        <urn:samm:io.catenax.shared.message_header:2.0.0#>,
+        <urn:samm:io.catenax.shared.message_header:3.0.0#> .
+
+<urn:shared.part_classification> sma:hasVersion <urn:samm:io.catenax.shared.part_classification:1.0.0#> .
+
+<urn:shared.part_site_information_as_built> sma:hasVersion <urn:samm:io.catenax.shared.part_site_information_as_built:1.0.0#>,
+        <urn:samm:io.catenax.shared.part_site_information_as_built:2.0.0#> .
+
+<urn:shared.physical_dimension> sma:hasVersion <urn:bamm:io.catenax.shared.physical_dimension:1.0.0#>,
+        <urn:bamm:io.catenax.shared.physical_dimension:2.0.0#>,
+        <urn:samm:io.catenax.shared.physical_dimension:3.0.0#> .
+
+<urn:shared.quantity> sma:hasVersion <urn:samm:io.catenax.shared.quantity:1.0.0#>,
+        <urn:samm:io.catenax.shared.quantity:2.0.0#> .
+
+<urn:shared.recycling_strategy_certificate> sma:hasVersion <urn:bamm:io.catenax.shared.recycling_strategy_certificate:1.0.0#>,
+        <urn:samm:io.catenax.shared.recycling_strategy_certificate:2.0.0#>,
+        <urn:samm:io.catenax.shared.recycling_strategy_certificate:3.0.0#> .
+
+<urn:shared.secondary_material_content> sma:hasVersion <urn:samm:io.catenax.shared.secondary_material_content:1.0.0#> .
+
+<urn:shared.shopfloor_information_types> sma:hasVersion <urn:samm:io.catenax.shared.shopfloor_information_types:1.0.0#>,
+        <urn:samm:io.catenax.shared.shopfloor_information_types:2.0.0#> .
+
+<urn:shared.uuid> sma:hasVersion <urn:samm:io.catenax.shared.uuid:1.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:2.0.0#> .
+
+<urn:shopfloor_information.get_production_forecast> sma:hasVersion <urn:samm:io.catenax.shopfloor_information.get_production_forecast:1.0.0#>,
+        <urn:samm:io.catenax.shopfloor_information.get_production_forecast:2.0.0#> .
+
+<urn:shopfloor_information.get_production_tracking> sma:hasVersion <urn:samm:io.catenax.shopfloor_information.get_production_tracking:1.0.0#> .
+
+<urn:shopfloor_information.provide_production_forecast> sma:hasVersion <urn:samm:io.catenax.shopfloor_information.provide_production_forecast:1.0.0#>,
+        <urn:samm:io.catenax.shopfloor_information.provide_production_forecast:2.0.0#> .
+
+<urn:shopfloor_information.provide_production_tracking> sma:hasVersion <urn:samm:io.catenax.shopfloor_information.provide_production_tracking:1.0.0#> .
+
+<urn:short_term_material_demand> sma:hasVersion <urn:samm:io.catenax.short_term_material_demand:1.0.0#> .
+
+<urn:single_level_bom_as_built> sma:hasVersion <urn:bamm:io.catenax.single_level_bom_as_built:1.0.0#>,
+        <urn:samm:io.catenax.single_level_bom_as_built:2.0.0#>,
+        <urn:samm:io.catenax.single_level_bom_as_built:3.0.0#> .
+
+<urn:single_level_bom_as_planned> sma:hasVersion <urn:samm:io.catenax.single_level_bom_as_planned:2.0.0#>,
+        <urn:samm:io.catenax.single_level_bom_as_planned:3.0.0#> .
+
+<urn:single_level_bom_as_specified> sma:hasVersion <urn:bamm:io.catenax.single_level_bom_as_specified:1.0.0#>,
+        <urn:samm:io.catenax.single_level_bom_as_specified:2.0.0#> .
+
+<urn:single_level_usage_as_built> sma:hasVersion <urn:samm:io.catenax.single_level_usage_as_built:2.0.0#>,
+        <urn:samm:io.catenax.single_level_usage_as_built:3.0.0#> .
+
+<urn:single_level_usage_as_planned> sma:hasVersion <urn:bamm:io.catenax.single_level_usage_as_planned:1.1.0#>,
+        <urn:samm:io.catenax.single_level_usage_as_planned:2.0.0#> .
+
+<urn:software_information> sma:hasVersion <urn:samm:io.catenax.software_information:1.0.0#> .
+
+<urn:time_series_reference> sma:hasVersion <urn:bamm:io.catenax.time_series_reference:1.0.0#> .
+
+<urn:traction_battery_code> sma:hasVersion <urn:bamm:io.catenax.traction_battery_code:1.0.0#>,
+        <urn:samm:io.catenax.traction_battery_code:2.0.0#> .
+
+<urn:transmission.transmission_pass> sma:hasVersion <urn:bamm:io.catenax.transmission.transmission_pass:1.0.0#>,
+        <urn:samm:io.catenax.transmission.transmission_pass:2.0.0#>,
+        <urn:samm:io.catenax.transmission.transmission_pass:3.0.0#> .
+
+<urn:user_estimated_loading> sma:hasVersion <urn:bamm:io.catenax.user_estimated_loading:1.0.0#>,
+        <urn:samm:io.catenax.user_estimated_loading:2.0.0#> .
+
+<urn:vehicle.product_description> sma:hasVersion <urn:bamm:io.catenax.vehicle.product_description:1.0.0#>,
+        <urn:bamm:io.catenax.vehicle.product_description:2.0.0#>,
+        <urn:samm:io.catenax.vehicle.product_description:3.0.0#> .
+
+<urn:waste> sma:hasVersion <urn:bamm:io.catenax.waste:1.0.0#>,
+        <urn:samm:io.catenax.waste:2.0.0#> .
+
+<urn:waste_certificate> sma:hasVersion <urn:samm:io.catenax.waste_certificate:1.0.0#> .
+
+<urn:week_based_capacity_group> sma:hasVersion <urn:bamm:io.catenax.week_based_capacity_group:1.0.1#>,
+        <urn:samm:io.catenax.week_based_capacity_group:2.0.0#>,
+        <urn:samm:io.catenax.week_based_capacity_group:3.0.0#> .
+
+<urn:week_based_material_demand> sma:hasVersion <urn:bamm:io.catenax.week_based_material_demand:1.0.0#>,
+        <urn:bamm:io.catenax.week_based_material_demand:1.0.1#>,
+        <urn:samm:io.catenax.week_based_material_demand:2.0.0#>,
+        <urn:samm:io.catenax.week_based_material_demand:3.0.0#> .
+
+<urn:bamm:io.catenax.asset_tracker_links:1.0.0#> sma:status "deprecate" .
+
+<urn:bamm:io.catenax.batch:1.0.2#> sma:status "deprecate" .
+
+<urn:bamm:io.catenax.battery.battery_pass:3.0.0#> sma:status "standardize" ;
+    sma:uses <urn:bamm:io.catenax.shared.address_characteristic:1.0.1#>,
+        <urn:bamm:io.catenax.shared.contact_information:1.0.0#> .
+
+<urn:bamm:io.catenax.battery.battery_pass:3.0.1#> sma:status "release" ;
+    sma:uses <urn:bamm:io.catenax.shared.address_characteristic:1.0.1#>,
+        <urn:bamm:io.catenax.shared.contact_information:1.0.0#> .
+
+<urn:bamm:io.catenax.battery.product_description:1.0.1#> sma:status "deprecate" .
+
+<urn:bamm:io.catenax.bom_as_specified:1.0.0#> sma:status "release" .
+
+<urn:bamm:io.catenax.bom_as_specified:1.0.1#> sma:status "release" .
+
+<urn:bamm:io.catenax.certificate_of_destruction:1.0.1#> sma:status "unknown" .
+
+<urn:bamm:io.catenax.certificate_of_dismantler:1.0.1#> sma:status "draft" ;
+    sma:uses <urn:bamm:io.catenax.shared.address_characteristic:1.0.1#>,
+        <urn:bamm:io.catenax.shared.contact_information:1.0.0#> .
+
+<urn:bamm:io.catenax.classified_load_spectrum:1.0.0#> sma:status "release" .
+
+<urn:bamm:io.catenax.decomissioning_certificate:1.0.0#> sma:status "release" .
+
+<urn:bamm:io.catenax.eol_story:1.0.0#> sma:status "release" .
+
+<urn:bamm:io.catenax.fleet.claim_data:1.0.0#> sma:status "deprecate" .
+
+<urn:bamm:io.catenax.fleet.diagnostic_data:1.0.0#> sma:status "deprecate" .
+
+<urn:bamm:io.catenax.idconversion:1.0.0#> sma:status "release" .
+
+<urn:bamm:io.catenax.individual_asset_definition:1.0.0#> sma:status "release" ;
+    sma:uses <urn:bamm:io.catenax.shared.physical_dimension:2.0.0#> .
+
+<urn:bamm:io.catenax.iot_sensor_data:1.0.0#> sma:status "deprecate" .
+
+<urn:bamm:io.catenax.iot_sensor_device_definition:1.0.0#> sma:status "deprecate" .
+
+<urn:bamm:io.catenax.just_in_sequence_part:1.0.0#> sma:status "deprecate" .
+
+<urn:bamm:io.catenax.manufactured_parts_quality_information:1.0.0#> sma:status "deprecate" .
+
+<urn:bamm:io.catenax.manufacturing_capability:1.0.0#> sma:status "deprecate" .
+
+<urn:bamm:io.catenax.market_place_offer:1.2.0#> sma:status "release" .
+
+<urn:bamm:io.catenax.market_place_offer:1.4.0#> sma:status "release" .
+
+<urn:bamm:io.catenax.material_flow_simulation_result:1.0.0#> sma:status "release" .
+
+<urn:bamm:io.catenax.material_for_homologation:1.0.0#> sma:status "release" ;
+    sma:uses <urn:bamm:io.catenax.shared.address_characteristic:1.0.0#> .
+
+<urn:bamm:io.catenax.part_as_specified:1.0.0#> sma:status "release" .
+
+<urn:bamm:io.catenax.part_as_specified:1.0.1#> sma:status "release" .
+
+<urn:bamm:io.catenax.part_as_specified:2.0.0#> sma:status "release" .
+
+<urn:bamm:io.catenax.part_site_information_as_planned:1.0.0#> sma:status "deprecate" .
+
+<urn:bamm:io.catenax.pcf:2.0.0#> sma:status "release" .
+
+<urn:bamm:io.catenax.pcf:4.0.0#> sma:status "release" .
+
+<urn:bamm:io.catenax.pcf:4.0.1#> sma:status "release" .
+
+<urn:bamm:io.catenax.product_stock:1.0.0#> sma:status "release" .
+
+<urn:bamm:io.catenax.quality_task:1.0.0#> sma:status "deprecate" .
+
+<urn:bamm:io.catenax.refurbishing_certificate:1.0.0#> sma:status "release" ;
+    sma:uses <urn:bamm:io.catenax.shared.recycling_strategy_certificate:1.0.0#> .
+
+<urn:bamm:io.catenax.remanufacturing_certificate:1.0.0#> sma:status "release" ;
+    sma:uses <urn:bamm:io.catenax.shared.recycling_strategy_certificate:1.0.0#> .
+
+<urn:bamm:io.catenax.return_request:1.1.1#> sma:status "release" .
+
+<urn:bamm:io.catenax.return_request:1.1.2#> sma:status "release" .
+
+<urn:bamm:io.catenax.reuse_certificate:1.0.0#> sma:status "release" ;
+    sma:uses <urn:bamm:io.catenax.shared.recycling_strategy_certificate:1.0.0#> .
+
+<urn:bamm:io.catenax.rul:1.0.0#> sma:status "release" .
+
+<urn:bamm:io.catenax.sealant.sealant_pass:1.0.0#> sma:status "deprecate" ;
+    sma:uses <urn:bamm:io.catenax.pcf:3.0.0#>,
+        <urn:bamm:io.catenax.serial_part_typization:2.0.0#> .
+
+<urn:bamm:io.catenax.serial_part:1.0.1#> sma:status "deprecate" .
+
+<urn:bamm:io.catenax.shared.address_characteristic:2.0.0#> sma:status "release" .
+
+<urn:bamm:io.catenax.shared.physical_dimension:1.0.0#> sma:status "release" .
+
+<urn:bamm:io.catenax.single_level_bom_as_built:1.0.0#> sma:status "deprecate" .
+
+<urn:bamm:io.catenax.single_level_bom_as_specified:1.0.0#> sma:status "release" .
+
+<urn:bamm:io.catenax.single_level_usage_as_planned:1.1.0#> sma:status "release" .
+
+<urn:bamm:io.catenax.time_series_reference:1.0.0#> sma:status "deprecate" .
+
+<urn:bamm:io.catenax.traction_battery_code:1.0.0#> sma:status "deprecate" .
+
+<urn:bamm:io.catenax.transmission.transmission_pass:1.0.0#> sma:status "deprecate" ;
+    sma:uses <urn:bamm:io.catenax.pcf:3.0.0#>,
+        <urn:bamm:io.catenax.serial_part_typization:2.0.0#>,
+        <urn:bamm:io.catenax.shared.contact_information:2.0.0#>,
+        <urn:bamm:io.catenax.shared.physical_dimension:2.0.0#> .
+
+<urn:bamm:io.catenax.user_estimated_loading:1.0.0#> sma:status "release" .
+
+<urn:bamm:io.catenax.vehicle.product_description:1.0.0#> sma:status "release" .
+
+<urn:bamm:io.catenax.vehicle.product_description:2.0.0#> sma:status "release" .
+
+<urn:bamm:io.catenax.waste:1.0.0#> sma:status "release" .
+
+<urn:bamm:io.catenax.week_based_capacity_group:1.0.1#> sma:status "release" .
+
+<urn:bamm:io.catenax.week_based_material_demand:1.0.0#> sma:status "deprecate" .
+
+<urn:bamm:io.catenax.week_based_material_demand:1.0.1#> sma:status "release" .
+
+<urn:samm:io.catenax.asset_tracker_links:2.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.uuid:1.0.0#> .
+
+<urn:samm:io.catenax.batch:2.0.0#> sma:status "deprecate" .
+
+<urn:samm:io.catenax.batch:2.0.1#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.part_site_information_as_built:1.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:1.0.0#> .
+
+<urn:samm:io.catenax.battery.battery_pass:4.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.generic.digital_product_passport:3.0.0#>,
+        <urn:samm:io.catenax.shared.quantity:1.0.0#> .
+
+<urn:samm:io.catenax.battery.battery_pass:5.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.generic.digital_product_passport:4.0.0#> .
+
+<urn:samm:io.catenax.battery.battery_pass:6.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.generic.digital_product_passport:5.0.0#> .
+
+<urn:samm:io.catenax.business_partner_certificate:1.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:2.0.0#> .
+
+<urn:samm:io.catenax.certificate_of_destruction:2.0.0#> sma:status "draft" .
+
+<urn:samm:io.catenax.certificate_signing_requests:1.0.0#> sma:status "release" .
+
+<urn:samm:io.catenax.classified_load_spectrum:2.0.0#> sma:status "draft" .
+
+<urn:samm:io.catenax.customs_information:1.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.uuid:2.0.0#> .
+
+<urn:samm:io.catenax.days_of_supply:1.0.0#> sma:status "deprecate" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:2.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:2.0.0#> .
+
+<urn:samm:io.catenax.days_of_supply:2.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:2.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:2.0.0#> .
+
+<urn:samm:io.catenax.decomissioning_certificate:2.0.0#> sma:status "draft" .
+
+<urn:samm:io.catenax.delivery_information:1.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:1.0.0#>,
+        <urn:samm:io.catenax.shared.quantity:1.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:1.0.0#> .
+
+<urn:samm:io.catenax.delivery_information:2.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:2.0.0#>,
+        <urn:samm:io.catenax.shared.quantity:2.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:2.0.0#> .
+
+<urn:samm:io.catenax.demand_and_capacity_notification:1.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:2.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:2.0.0#> .
+
+<urn:samm:io.catenax.demand_and_capacity_notification:2.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:2.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:2.0.0#> .
+
+<urn:samm:io.catenax.early_warning_notification:1.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.uuid:2.0.0#> .
+
+<urn:samm:io.catenax.electric_drive.electric_drive_passport:1.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.generic.digital_product_passport:4.0.0#>,
+        <urn:samm:io.catenax.shared.quantity:2.0.0#>,
+        <urn:samm:io.catenax.transmission.transmission_pass:2.0.0#> .
+
+<urn:samm:io.catenax.electric_drive.electric_drive_passport:2.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.generic.digital_product_passport:5.0.0#>,
+        <urn:samm:io.catenax.shared.quantity:2.0.0#>,
+        <urn:samm:io.catenax.transmission.transmission_pass:3.0.0#> .
+
+<urn:samm:io.catenax.eol_story:2.0.0#> sma:status "draft" .
+
+<urn:samm:io.catenax.essincident:2.0.0#> sma:status "deprecate" ;
+    sma:uses <urn:samm:io.catenax.shared.address_characteristic:3.0.0#> .
+
+<urn:samm:io.catenax.essincident:3.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.address_characteristic:4.0.0#>,
+        <urn:samm:io.catenax.shared.business_partner_number:2.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:2.0.0#> .
+
+<urn:samm:io.catenax.essincident:4.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.address_characteristic:4.0.0#>,
+        <urn:samm:io.catenax.shared.business_partner_number:2.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:2.0.0#> .
+
+<urn:samm:io.catenax.failure_pattern:1.0.0#> sma:status "release" .
+
+<urn:samm:io.catenax.fleet.claim_data:2.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.uuid:1.0.0#> .
+
+<urn:samm:io.catenax.fleet.diagnostic_data:2.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.uuid:1.0.0#> .
+
+<urn:samm:io.catenax.fleet.vehicles:1.0.0#> sma:status "deprecate" ;
+    sma:uses <urn:samm:io.catenax.vehicle.product_description:3.0.0#> .
+
+<urn:samm:io.catenax.fleet.vehicles:2.0.0#> sma:status "deprecate" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:1.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:1.0.0#> .
+
+<urn:samm:io.catenax.fleet.vehicles:2.1.0#> sma:status "deprecate" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:2.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:2.0.0#> .
+
+<urn:samm:io.catenax.fleet.vehicles:3.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:2.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:2.0.0#> .
+
+<urn:samm:io.catenax.generic.digital_product_passport:2.0.0#> sma:status "deprecate" .
+
+<urn:samm:io.catenax.global_transport_label:1.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.address_characteristic:3.0.0#>,
+        <urn:samm:io.catenax.shared.business_partner_number:2.0.0#>,
+        <urn:samm:io.catenax.shared.quantity:2.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:2.0.0#> .
+
+<urn:samm:io.catenax.id_based_comment:1.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:1.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:1.0.0#> .
+
+<urn:samm:io.catenax.id_based_request_for_update:1.0.0#> sma:status "release" .
+
+<urn:samm:io.catenax.id_based_request_for_update:2.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.uuid:1.0.0#> .
+
+<urn:samm:io.catenax.id_based_request_for_update:3.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.uuid:2.0.0#> .
+
+<urn:samm:io.catenax.idconversion:2.0.0#> sma:status "draft" .
+
+<urn:samm:io.catenax.individual_asset_definition:2.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.physical_dimension:3.0.0#> .
+
+<urn:samm:io.catenax.iot_sensor_data:2.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.uuid:1.0.0#> .
+
+<urn:samm:io.catenax.iot_sensor_device_definition:2.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:1.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:1.0.0#> .
+
+<urn:samm:io.catenax.item_stock:1.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:1.0.0#>,
+        <urn:samm:io.catenax.shared.quantity:1.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:1.0.0#> .
+
+<urn:samm:io.catenax.item_stock:2.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:2.0.0#>,
+        <urn:samm:io.catenax.shared.quantity:2.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:2.0.0#> .
+
+<urn:samm:io.catenax.just_in_sequence_part:2.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.part_site_information_as_built:1.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:1.0.0#> .
+
+<urn:samm:io.catenax.just_in_sequence_part:3.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.part_classification:1.0.0#>,
+        <urn:samm:io.catenax.shared.part_site_information_as_built:2.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:2.0.0#> .
+
+<urn:samm:io.catenax.mandatory_dismantling:1.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:2.0.0#>,
+        <urn:samm:io.catenax.shared.quantity:2.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:2.0.0#> .
+
+<urn:samm:io.catenax.manufactured_parts_quality_information:2.0.0#> sma:status "deprecate" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:1.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:1.0.0#> .
+
+<urn:samm:io.catenax.manufactured_parts_quality_information:2.1.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:2.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:2.0.0#> .
+
+<urn:samm:io.catenax.manufacturing_capability:2.0.0#> sma:status "deprecate" .
+
+<urn:samm:io.catenax.market_place_offer:2.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.serial_part:3.0.0#>,
+        <urn:samm:io.catenax.shared.quantity:2.0.0#> .
+
+<urn:samm:io.catenax.material.chemical_material_passport:1.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.generic.digital_product_passport:4.0.0#>,
+        <urn:samm:io.catenax.shared.quantity:2.0.0#> .
+
+<urn:samm:io.catenax.material.chemical_material_passport:2.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.generic.digital_product_passport:5.0.0#>,
+        <urn:samm:io.catenax.shared.quantity:2.0.0#> .
+
+<urn:samm:io.catenax.material_demand:1.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:1.0.0#>,
+        <urn:samm:io.catenax.shared.quantity:1.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:1.0.0#> .
+
+<urn:samm:io.catenax.material_flow_scenario_request:1.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.material_flow_simulation_result:2.0.0#> .
+
+<urn:samm:io.catenax.material_flow_scenario_request:2.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.material_flow_simulation_result:3.0.0#> .
+
+<urn:samm:io.catenax.material_for_homologation:2.0.0#> sma:status "draft" ;
+    sma:uses <urn:samm:io.catenax.shared.address_characteristic:1.0.0#> .
+
+<urn:samm:io.catenax.material_recycling_certificate:1.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.recycling_strategy_certificate:2.0.0#> .
+
+<urn:samm:io.catenax.packing_list:1.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.address_characteristic:3.0.0#>,
+        <urn:samm:io.catenax.shared.business_partner_number:2.0.0#>,
+        <urn:samm:io.catenax.shared.quantity:2.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:2.0.0#> .
+
+<urn:samm:io.catenax.part_as_planned:2.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:1.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:1.0.0#> .
+
+<urn:samm:io.catenax.part_as_specified:3.0.0#> sma:status "draft" .
+
+<urn:samm:io.catenax.parts_analyses:2.0.0#> sma:status "deprecate" .
+
+<urn:samm:io.catenax.parts_analyses:3.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.uuid:1.0.0#> .
+
+<urn:samm:io.catenax.pcf:5.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.uuid:1.0.0#> .
+
+<urn:samm:io.catenax.pcf:6.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.uuid:2.0.0#> .
+
+<urn:samm:io.catenax.pcf:7.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.uuid:2.0.0#> .
+
+<urn:samm:io.catenax.planned_production_output:1.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:1.0.0#>,
+        <urn:samm:io.catenax.shared.quantity:1.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:1.0.0#> .
+
+<urn:samm:io.catenax.planned_production_output:2.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:2.0.0#>,
+        <urn:samm:io.catenax.shared.quantity:2.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:2.0.0#> .
+
+<urn:samm:io.catenax.product_stock:2.0.0#> sma:status "draft" .
+
+<urn:samm:io.catenax.quality_task:2.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:1.0.0#>,
+        <urn:samm:io.catenax.shared.contact_information:3.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:1.0.0#> .
+
+<urn:samm:io.catenax.quality_task_attachment:1.0.0#> sma:status "release" .
+
+<urn:samm:io.catenax.quality_task_attachment:2.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.uuid:2.0.0#> .
+
+<urn:samm:io.catenax.refurbishing_certificate:2.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.recycling_strategy_certificate:2.0.0#> .
+
+<urn:samm:io.catenax.refurbishing_certificate:3.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.serial_part:3.0.0#>,
+        <urn:samm:io.catenax.shared.recycling_strategy_certificate:3.0.0#> .
+
+<urn:samm:io.catenax.remanufacturing_certificate:2.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.recycling_strategy_certificate:2.0.0#> .
+
+<urn:samm:io.catenax.remanufacturing_certificate:3.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.serial_part:3.0.0#>,
+        <urn:samm:io.catenax.shared.recycling_strategy_certificate:3.0.0#> .
+
+<urn:samm:io.catenax.repair_certificate:1.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.serial_part:3.0.0#>,
+        <urn:samm:io.catenax.shared.recycling_strategy_certificate:3.0.0#> .
+
+<urn:samm:io.catenax.request_for_quotation:1.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:1.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:1.0.0#> .
+
+<urn:samm:io.catenax.request_for_quotation:2.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:1.0.0#>,
+        <urn:samm:io.catenax.shared.message_header:1.0.0#>,
+        <urn:samm:io.catenax.shared.quantity:1.0.0#> .
+
+<urn:samm:io.catenax.request_for_quotation:3.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.bill_of_process:1.1.0#>,
+        <urn:samm:io.catenax.shared.message_header:3.0.0#>,
+        <urn:samm:io.catenax.shared.quantity:2.0.0#> .
+
+<urn:samm:io.catenax.return_request:2.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.serial_part:3.0.0#>,
+        <urn:samm:io.catenax.shared.address_characteristic:3.0.0#>,
+        <urn:samm:io.catenax.shared.part_classification:1.0.0#>,
+        <urn:samm:io.catenax.shared.quantity:2.0.0#> .
+
+<urn:samm:io.catenax.reuse_certificate:2.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.recycling_strategy_certificate:2.0.0#> .
+
+<urn:samm:io.catenax.reuse_certificate:3.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.serial_part:3.0.0#>,
+        <urn:samm:io.catenax.shared.recycling_strategy_certificate:3.0.0#> .
+
+<urn:samm:io.catenax.rul:2.0.0#> sma:status "draft" .
+
+<urn:samm:io.catenax.secondary_material_content:1.0.0#> sma:status "deprecate" .
+
+<urn:samm:io.catenax.secondary_material_content_calculated:1.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.secondary_material_content:1.0.0#> .
+
+<urn:samm:io.catenax.secondary_material_content_verifiable:1.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.secondary_material_content:1.0.0#> .
+
+<urn:samm:io.catenax.serial_part:2.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.part_site_information_as_built:1.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:1.0.0#> .
+
+<urn:samm:io.catenax.shared.contact_information:4.0.0#> sma:status "release" .
+
+<urn:samm:io.catenax.shopfloor_information.get_production_forecast:1.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.message_header:1.0.0#>,
+        <urn:samm:io.catenax.shared.shopfloor_information_types:1.0.0#> .
+
+<urn:samm:io.catenax.shopfloor_information.get_production_forecast:2.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:1.0.0#>,
+        <urn:samm:io.catenax.shared.message_header:2.0.0#>,
+        <urn:samm:io.catenax.shared.shopfloor_information_types:2.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:1.0.0#> .
+
+<urn:samm:io.catenax.shopfloor_information.get_production_tracking:1.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.serial_part:3.0.0#>,
+        <urn:samm:io.catenax.shared.business_partner_number:2.0.0#>,
+        <urn:samm:io.catenax.shared.message_header:2.0.0#> .
+
+<urn:samm:io.catenax.shopfloor_information.provide_production_forecast:1.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.message_header:1.0.0#>,
+        <urn:samm:io.catenax.shared.shopfloor_information_types:1.0.0#> .
+
+<urn:samm:io.catenax.shopfloor_information.provide_production_forecast:2.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.message_header:2.0.0#>,
+        <urn:samm:io.catenax.shared.shopfloor_information_types:2.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:1.0.0#> .
+
+<urn:samm:io.catenax.shopfloor_information.provide_production_tracking:1.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.serial_part:3.0.0#>,
+        <urn:samm:io.catenax.shared.message_header:2.0.0#> .
+
+<urn:samm:io.catenax.short_term_material_demand:1.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:2.0.0#>,
+        <urn:samm:io.catenax.shared.quantity:2.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:2.0.0#> .
+
+<urn:samm:io.catenax.single_level_bom_as_built:2.0.0#> sma:status "release" .
+
+<urn:samm:io.catenax.single_level_bom_as_built:3.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:2.0.0#>,
+        <urn:samm:io.catenax.shared.quantity:2.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:2.0.0#> .
+
+<urn:samm:io.catenax.single_level_bom_as_planned:2.0.0#> sma:status "release" .
+
+<urn:samm:io.catenax.single_level_bom_as_planned:3.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:2.0.0#>,
+        <urn:samm:io.catenax.shared.quantity:2.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:2.0.0#> .
+
+<urn:samm:io.catenax.single_level_bom_as_specified:2.0.0#> sma:status "release" .
+
+<urn:samm:io.catenax.single_level_usage_as_built:2.0.0#> sma:status "release" .
+
+<urn:samm:io.catenax.single_level_usage_as_built:3.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:2.0.0#>,
+        <urn:samm:io.catenax.shared.quantity:2.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:2.0.0#> .
+
+<urn:samm:io.catenax.single_level_usage_as_planned:2.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:2.0.0#>,
+        <urn:samm:io.catenax.shared.quantity:2.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:2.0.0#> .
+
+<urn:samm:io.catenax.software_information:1.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.uuid:2.0.0#> .
+
+<urn:samm:io.catenax.traction_battery_code:2.0.0#> sma:status "release" .
+
+<urn:samm:io.catenax.user_estimated_loading:2.0.0#> sma:status "draft" .
+
+<urn:samm:io.catenax.waste:2.0.0#> sma:status "draft" .
+
+<urn:samm:io.catenax.waste_certificate:1.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.recycling_strategy_certificate:2.0.0#> .
+
+<urn:samm:io.catenax.week_based_capacity_group:2.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:1.0.0#>,
+        <urn:samm:io.catenax.shared.quantity:1.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:1.0.0#> .
+
+<urn:samm:io.catenax.week_based_capacity_group:3.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:2.0.0#>,
+        <urn:samm:io.catenax.shared.quantity:2.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:2.0.0#> .
+
+<urn:samm:io.catenax.week_based_material_demand:2.0.0#> sma:status "release" .
+
+<urn:samm:io.catenax.week_based_material_demand:3.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:2.0.0#>,
+        <urn:samm:io.catenax.shared.quantity:2.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:2.0.0#> .
+
+<urn:bamm:io.catenax.shared.contact_information:2.0.0#> sma:status "release" .
+
+<urn:samm:io.catenax.generic.digital_product_passport:3.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.address_characteristic:3.0.0#>,
+        <urn:samm:io.catenax.shared.business_partner_number:1.0.0#>,
+        <urn:samm:io.catenax.shared.contact_information:3.0.0#>,
+        <urn:samm:io.catenax.shared.quantity:1.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:1.0.0#> .
+
+<urn:samm:io.catenax.manufacturing_capability:3.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.bill_of_process:1.0.0#> .
+
+<urn:samm:io.catenax.manufacturing_capability:3.1.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.bill_of_process:1.1.0#> .
+
+<urn:samm:io.catenax.material_flow_simulation_result:2.0.0#> sma:status "release" .
+
+<urn:samm:io.catenax.material_flow_simulation_result:3.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:2.0.0#> .
+
+<urn:samm:io.catenax.shared.bill_of_process:1.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.manufacturing_capability:3.0.0#>,
+        <urn:samm:io.catenax.shared.message_header:2.0.0#> .
+
+<urn:samm:io.catenax.shared.physical_dimension:3.0.0#> sma:status "release" .
+
+<urn:samm:io.catenax.transmission.transmission_pass:2.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.generic.digital_product_passport:4.0.0#> .
+
+<urn:samm:io.catenax.transmission.transmission_pass:3.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.generic.digital_product_passport:5.0.0#> .
+
+<urn:samm:io.catenax.vehicle.product_description:3.0.0#> sma:status "release" .
+
+<urn:bamm:io.catenax.pcf:3.0.0#> sma:status "release" .
+
+<urn:bamm:io.catenax.shared.physical_dimension:2.0.0#> sma:status "release" .
+
+<urn:samm:io.catenax.batch:3.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.part_classification:1.0.0#>,
+        <urn:samm:io.catenax.shared.part_site_information_as_built:2.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:2.0.0#> .
+
+<urn:samm:io.catenax.part_type_information:1.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:2.0.0#>,
+        <urn:samm:io.catenax.shared.part_classification:1.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:2.0.0#> .
+
+<urn:samm:io.catenax.shared.address_characteristic:4.0.0#> sma:status "release" .
+
+<urn:samm:io.catenax.shared.bill_of_process:1.1.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.manufacturing_capability:3.1.0#>,
+        <urn:samm:io.catenax.shared.message_header:3.0.0#> .
+
+<urn:samm:io.catenax.shared.contact_information:3.0.0#> sma:status "release" .
+
+<urn:samm:io.catenax.shared.message_header:3.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:2.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:2.0.0#> .
+
+<urn:samm:io.catenax.shared.secondary_material_content:1.0.0#> sma:status "release" .
+
+<urn:samm:io.catenax.shared.shopfloor_information_types:1.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.message_header:1.0.0#> .
+
+<urn:samm:io.catenax.shared.shopfloor_information_types:2.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.message_header:2.0.0#> .
+
+<urn:bamm:io.catenax.shared.address_characteristic:1.0.1#> sma:status "release" .
+
+<urn:bamm:io.catenax.shared.contact_information:1.0.0#> sma:status "release" .
+
+<urn:bamm:io.catenax.shared.recycling_strategy_certificate:1.0.0#> sma:status "release" .
+
+<urn:samm:io.catenax.shared.part_site_information_as_built:1.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:1.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:1.0.0#> .
+
+<urn:samm:io.catenax.shared.part_site_information_as_built:2.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:2.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:2.0.0#> .
+
+<urn:samm:io.catenax.generic.digital_product_passport:4.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.batch:3.0.0#>,
+        <urn:samm:io.catenax.part_type_information:1.0.0#>,
+        <urn:samm:io.catenax.serial_part:3.0.0#>,
+        <urn:samm:io.catenax.shared.business_partner_number:2.0.0#>,
+        <urn:samm:io.catenax.shared.part_classification:1.0.0#>,
+        <urn:samm:io.catenax.shared.quantity:2.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:2.0.0#> .
+
+<urn:samm:io.catenax.generic.digital_product_passport:5.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.batch:3.0.0#>,
+        <urn:samm:io.catenax.part_type_information:1.0.0#>,
+        <urn:samm:io.catenax.serial_part:3.0.0#>,
+        <urn:samm:io.catenax.shared.business_partner_number:2.0.0#>,
+        <urn:samm:io.catenax.shared.part_classification:1.0.0#>,
+        <urn:samm:io.catenax.shared.quantity:2.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:2.0.0#> .
+
+<urn:samm:io.catenax.shared.message_header:1.0.0#> sma:status "deprecate" .
+
+<urn:samm:io.catenax.shared.recycling_strategy_certificate:3.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:2.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:2.0.0#> .
+
+<urn:samm:io.catenax.shared.address_characteristic:3.0.0#> sma:status "release" .
+
+<urn:samm:io.catenax.shared.recycling_strategy_certificate:2.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:1.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:1.0.0#> .
+
+<urn:samm:io.catenax.shared.message_header:2.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:1.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:1.0.0#> .
+
+<urn:samm:io.catenax.shared.part_classification:1.0.0#> sma:status "release" .
+
+<urn:samm:io.catenax.shared.quantity:1.0.0#> sma:status "release" .
+
+<urn:samm:io.catenax.serial_part:3.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.part_classification:1.0.0#>,
+        <urn:samm:io.catenax.shared.part_site_information_as_built:2.0.0#>,
+        <urn:samm:io.catenax.shared.uuid:2.0.0#> .
+
+<urn:samm:io.catenax.shared.business_partner_number:1.0.0#> sma:status "release" .
+
+<urn:samm:io.catenax.shared.quantity:2.0.0#> sma:status "release" .
+
+<urn:samm:io.catenax.shared.uuid:1.0.0#> sma:status "release" .
+
+<urn:samm:io.catenax.shared.business_partner_number:2.0.0#> sma:status "release" .
+
+<urn:samm:io.catenax.shared.uuid:2.0.0#> sma:status "release" .
+
