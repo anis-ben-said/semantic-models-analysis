@@ -2,3 +2,5 @@ clone_repo.py
 .DS_Store
 notebooks/
 modules/__pycache__/
+*.py[cod]
+*$py.class
