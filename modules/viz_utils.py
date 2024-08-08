@@ -5,11 +5,11 @@ from st_link_analysis.component.layouts import LAYOUTS
 from st_link_analysis import st_link_analysis, NodeStyle, EdgeStyle
 
 
-def draw_model_graph(g, modelVersion):
+def draw_model_graph(g, modelVersion, is_outgoing):
     # initialize the dictionary elements with 2 keys: nodes and edges and empty lists as values
         elements = {"nodes": [], "edges": []}
         # Obtenir tous les chemins
-        use_paths, nodes = get_all_use_paths(g, modelVersion)
+        use_paths, nodes = get_all_use_paths(g, modelVersion, is_outgoing)
 
 
         for start, predicate, end in use_paths:
@@ -78,7 +78,8 @@ def draw_model_graph(g, modelVersion):
             EdgeStyle("uses",line_color, True, True, curve_style),
         ]
     
+        st.divider()
 
         # Render the component
-        st.markdown(f"#### {modelVersion} graph")
+        st.markdown(f"###### {modelVersion} graph")
         st_link_analysis(elements, layout, node_styles, edge_styles,height=600)
