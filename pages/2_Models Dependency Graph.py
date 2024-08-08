@@ -15,7 +15,7 @@ def main():
     # parse the turtle file in data folder
     g.parse("data/semantic-models.ttl", format="turtle")
 
-    st.markdown("### Model selection")
+    st.markdown("#### Model selection")
 
     # Define the first list and a dictionary to map the second list values based on the first list selection
     # Initialize the first list with getAllModels() ordered alphabetically
@@ -35,8 +35,11 @@ def main():
     # Create a selectbox for the second list
     selected_version = selection_cols[1].selectbox('Select a Version:', second_list)
 
-    st.text(selected_version)
-    draw_model_graph(g, selected_version)
+    # create a choice "outgoing" or "incoming" for the user to choose the direction of the graph. It will be true if the user selects "outgoing" and false if the user selects "incoming"
+    # I want to prix the text and the radio buttons in the same line
+    is_outgoing = st.radio('Choose the direction of the graph:', ["Outgoing", "Incoming"]) == "Outgoing"
+
+    draw_model_graph(g, selected_version,is_outgoing)
 
           
 if __name__ == "__main__":

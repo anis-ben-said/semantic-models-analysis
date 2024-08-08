@@ -146,22 +146,31 @@ def getAllModels(g):
 # Fonction récursive pour parcourir le graphe RDF et obtenir tous les chemins d'utilisation, ainsi qu'une liste unique des noeuds
 
 
-def get_all_use_paths(graph, start_node, paths=None, nodes=None):
+def get_all_use_paths(graph, start_node, is_outgoing, paths=None, nodes=None):
     if paths is None:
         paths = []
     if nodes is None:
         nodes = set()
     
-    # Ajouter le nœud de départ à l'ensemble des nœuds d'extrémité
     nodes.add(start_node)
 
-    for _, _, end_node in graph.triples((start_node, SMA.uses, None)):
-        if (start_node, SMA.uses, end_node) not in paths:
-            paths.append((start_node, SMA.uses, end_node))
-            nodes.add(end_node)
-            get_all_use_paths(graph, end_node, paths, nodes)
+    if is_outgoing:
+        for _, _, end_node in graph.triples((start_node, SMA.uses, None)):
+            if (start_node, SMA.uses, end_node) not in paths:
+                paths.append((start_node, SMA.uses, end_node))
+                if end_node not in nodes:  # Assurer de ne pas revisiter les nœuds déjà traités
+                    nodes.add(end_node)
+                    get_all_use_paths(graph, end_node, is_outgoing, paths, nodes)
+    else:
+        for end_node, _, _ in graph.triples((None, SMA.uses, start_node)):
+            if (end_node, SMA.uses, start_node) not in paths:
+                paths.append((end_node, SMA.uses, start_node))
+                if end_node not in nodes:  # Assurer de ne pas revisiter les nœuds déjà traités
+                    nodes.add(end_node)
+                    get_all_use_paths(graph, end_node, is_outgoing, paths, nodes)
 
     return paths, nodes
+
 
 # Fonction récursive pour détecter les boucles
 def detect_cycles(graph, current_node, visited=None, stack=None, all_cycles=None):
@@ -191,7 +200,7 @@ def detect_deprecated_usages(graph, model_version, deprecated_usages=None):
     if deprecated_usages is None:
         deprecated_usages = set()
 
-    paths, nodes =  get_all_use_paths(graph, URIRef(model_version))
+    paths, nodes =  get_all_use_paths(graph, URIRef(model_version), True)
     for node in nodes:
         if getModelVersionStatus(graph, node) == Literal("deprecate"):
             deprecated_usages.add(node)

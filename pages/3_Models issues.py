@@ -38,7 +38,7 @@ def main():
         st.write(f"{selected_circular_issue} has a circular dependency")
         for cycle in detect_cycles(g, selected_circular_issue):
             st.text(" -> ".join(str(node) for node in cycle))
-        draw_model_graph(g, selected_circular_issue)
+        draw_model_graph(g, selected_circular_issue, True)
     elif selected_issue == 'draft/release/standardize model using deprecated one':
         deprecated_issues = []
         for model in getAllModels(g):
@@ -49,7 +49,7 @@ def main():
                         deprecated_issues.append(modelVersion)
         selected_deprecated_issue = st.selectbox(f"Select one model version ({len(deprecated_issues)}) :", deprecated_issues)
         st.write(f"{selected_deprecated_issue} is using a deprecated model")
-        draw_model_graph(g, selected_deprecated_issue)
+        draw_model_graph(g, selected_deprecated_issue,True)
 
     elif selected_issue == 'Missing files':
         st.write("Checking for missing files in the repository")   
