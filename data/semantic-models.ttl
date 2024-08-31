@@ -19,7 +19,8 @@
 <urn:bom_as_specified> sma:hasVersion <urn:bamm:io.catenax.bom_as_specified:1.0.0#>,
         <urn:bamm:io.catenax.bom_as_specified:1.0.1#> .
 
-<urn:business_partner_certificate> sma:hasVersion <urn:samm:io.catenax.business_partner_certificate:1.0.0#> .
+<urn:business_partner_certificate> sma:hasVersion <urn:samm:io.catenax.business_partner_certificate:1.0.0#>,
+        <urn:samm:io.catenax.business_partner_certificate:2.0.0#> .
 
 <urn:certificate_of_destruction> sma:hasVersion <urn:bamm:io.catenax.certificate_of_destruction:1.0.1#>,
         <urn:samm:io.catenax.certificate_of_destruction:2.0.0#> .
@@ -462,6 +463,9 @@
     sma:uses <urn:samm:io.catenax.generic.digital_product_passport:5.0.0#> .
 
 <urn:samm:io.catenax.business_partner_certificate:1.0.0#> sma:status "release" ;
+    sma:uses <urn:samm:io.catenax.shared.business_partner_number:2.0.0#> .
+
+<urn:samm:io.catenax.business_partner_certificate:2.0.0#> sma:status "release" ;
     sma:uses <urn:samm:io.catenax.shared.business_partner_number:2.0.0#> .
 
 <urn:samm:io.catenax.certificate_of_destruction:2.0.0#> sma:status "draft" .
